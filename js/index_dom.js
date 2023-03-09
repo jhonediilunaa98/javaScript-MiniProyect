@@ -3,6 +3,7 @@ import countdown from "./dom/cuenta_regresiva.js";
 import hamburgerMenu from "./dom/menu_hamburgues.js";
 import { digitalClock, alarm } from "./dom/reloj.js";
 import { moveBall, shortcuts } from "./dom/teclado.js";
+import darkTheme from "./dom/tema_oscuro.js";
 
 const d = document;
 
@@ -15,7 +16,8 @@ d.addEventListener("DOMContentLoaded", (e) =>{
     "June 09, 2023 00:00:00",
     "Feliz Cumpleaños Jhon Luna Santos");
 
-    scrollTopButton(".scroll-top-btn")
+    scrollTopButton(".scroll-top-btn");
+    darkTheme(".dark-theme-btn", "darlkMode");
 });
 
 

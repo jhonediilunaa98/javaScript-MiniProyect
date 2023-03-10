@@ -17,7 +17,7 @@ d.addEventListener("DOMContentLoaded", (e) =>{
     "Feliz Cumpleaños Jhon Luna Santos");
 
     scrollTopButton(".scroll-top-btn");
-    darkTheme(".dark-theme-btn", "darlkMode");
+    darkTheme(".dark-theme-btn", "dark-mode");
 });
 
 

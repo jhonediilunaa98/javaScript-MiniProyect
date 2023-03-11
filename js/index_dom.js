@@ -15,8 +15,10 @@ d.addEventListener("DOMContentLoaded", (e) =>{
     "countdown",
     "June 09, 2023 00:00:00",
     "Feliz Cumpleaños Jhon Luna Santos");    
+
+    scrollTopButton(".scroll-top-btn");
 });
-scrollTopButton(".scroll-top-btn");
+
 
 
 d.addEventListener("keydown", (e) =>{

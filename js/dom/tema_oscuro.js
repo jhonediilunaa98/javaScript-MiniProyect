@@ -20,6 +20,8 @@ export default function darkTheme(btn, classDark){
         }
     })
 
-
+ d.addEventListener("DOMContentLoaded", e=>{
+    
+ })
 
 }

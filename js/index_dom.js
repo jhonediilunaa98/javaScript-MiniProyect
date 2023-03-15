@@ -1,5 +1,6 @@
 import scrollTopButton from "./dom/boton_scroll.js";
 import countdown from "./dom/cuenta_regresiva.js";
+import userDeviceInfo from "./dom/deteccion_dispositivos.js";
 import hamburgerMenu from "./dom/menu_hamburgues.js";
 import responsiveMedia from "./dom/objeto_responsive.js";
 import responsiveTester from "./dom/prueba_responsive.js";
@@ -30,6 +31,7 @@ d.addEventListener("DOMContentLoaded", (e) =>{
     `<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1799.8730525569615!2d-76.56844137998914!3d3.4351379162661866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a430db9b37c3%3A0x382e3539b65be38f!2sMonumento%20Cristo%20Rey!5e0!3m2!1ses!2sco!4v1678822410322!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`
     );
         responsiveTester("responsive-tester");
+        userDeviceInfo("user-device"); 
 });
 
 
